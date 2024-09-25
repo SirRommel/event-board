@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.common.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "module": "esnext",
+    "isolatedModules": true,
+    "noEmit": true
+  }
+}

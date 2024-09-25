@@ -1,0 +1,65 @@
+/* .middleWrapper {
+    display: flex;
+    box-sizing: border-box;
+    width: 0;
+    height: 0;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(144, 144, 144);
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.button:hover {
+    border: 1px solid rgb(144, 175, 223);
+} */
+.middleWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Установил 100vh для корректного центрирования формы по высоте */
+    width: 100vw; /* Установил 100vw для центрирования по ширине */
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: none; /* Убрал translate, так как он смещает элемент */
+    flex-direction: column;
+    padding: 20px; /* Добавил отступы, чтобы на маленьких экранах форма не упиралась в края */
+    box-sizing: border-box;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(144, 144, 144);
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(144, 175, 223); /* Обновил цвет при наведении */
+}
+

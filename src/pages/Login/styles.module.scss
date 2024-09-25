@@ -1,0 +1,70 @@
+.loginWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% высоты экрана для вертикального центрирования */
+    width: 100vw; /* 100% ширины экрана для горизонтального центрирования */
+    background-color: #f8f9fa; /* Светлый фон для контраста формы */
+  }
+  
+  .formBlock {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Максимальная ширина формы */
+    box-sizing: border-box;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .rowObject {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .inputStyle {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  
+    &:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  
+  .errorMessage {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
